@@ -1,0 +1,15 @@
+name: Build Application
+
+on: push
+
+jobs: 
+  build:
+    name: Build App
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull Code
+        uses: actions/checkout@v2
+      - name: Print Current Directory
+        run: pwd
+      - name: List Directory Files
+        run: ls
