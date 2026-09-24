@@ -83,12 +83,15 @@ Descriptors fall into four groups. The group matters for modeling: **structural*
 | **Sound** | `strkick` | "Strong kick" |
 | | `komanperc` | Percussion made of short, stab-like grooves |
 | | `cong` / `conga` | Latin percussion / congas (same as element 3) |
+| | `psh` | White noise sustained for long continuous periods (not percussive) |
 | | `acid`, `arpgroove`, `clap`, `speech` | Specific sounds |
 | | `melodic9` | Melodic techno |
 | **Artist style** | `dgwd` | "Dig Weed" (John Digweed) style — also the DW folders/categories |
 | | `leger` | An artist's style: percussive/conga-driven melody with a lot of energy |
 | | `orion` | Alex Orion style: usually fly, groovy, low energy |
-| | `arias`, `aliaga`, `zooz`… | Other artist styles (confirm when reviewing) |
+| | `arias` | Ezequiel Arias style |
+| | `aliaga` | Ivan Aliaga style |
+| | `zooz`… | Other rare artist-style words — confirmed during the label review |
 
 Normalization: lowercase; split compounds (`fly-conga-leger` → `fly`, `conga`, `leger`); merge variants (`cong` = `conga`, `hypnotic` = `hipnotic`). Artist-style descriptors are also natural **similarity queries** ("more tracks that sound like `orion`").
 

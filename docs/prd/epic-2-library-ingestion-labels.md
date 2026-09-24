@@ -68,8 +68,8 @@ Per position: `0` = absent, the digit = present, any other symbol (Shift+digit) 
 
 - **Structure:** `ctd` chill till drop · `hungup` long stretch without kick before the drop · `bigdrop` high-energy drop
 - **Character:** `strytllng` storytelling (emotional, evolving melody) · `ooc` out of context (weird track) · groovy, fly, hipnotic, hype, chill, dark…
-- **Sound:** `strkick` strong kick · `komanperc` short stab-like percussion grooves · `cong` congas · `melodic9` melodic techno · acid
-- **Artist style:** `dgwd` Digweed · `leger` percussive/conga melody with high energy · `orion` Alex Orion (fly, groovy, low energy)
+- **Sound:** `strkick` strong kick · `komanperc` short stab-like percussion grooves · `psh` long sustained white noise (not percussive) · `cong` congas · `melodic9` melodic techno · acid
+- **Artist style:** `dgwd` Digweed · `leger` percussive/conga melody with high energy · `orion` Alex Orion (fly, groovy, low energy) · `arias` Ezequiel Arias · `aliaga` Ivan Aliaga
 
 ### Label report contents
 
@@ -90,7 +90,7 @@ Counts per field/value · held-out folder tracks · format breakdown · malforme
 ## Key Technical Decisions
 
 - Minimum examples per class (proposal: 20) and per descriptor (proposal: 30)
-- Remaining unknown descriptors (`psh`, `arias`, `aliaga`…) confirmed in the report review
+- Rare descriptors not in the glossary listed in the label report for confirmation
 - Held-out folders (resolved): `000Deep`, `06Minimal`, `haus`, `Remolinos`, `Best2024`, `LemAdDy`, `classifiedNew` — excluded from training, used later as an unseen test
 
 ---

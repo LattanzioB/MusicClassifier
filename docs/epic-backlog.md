@@ -115,7 +115,7 @@ Register every track in the library, deduplicate, read existing tags, and turn t
 
 ### Key Technical Decisions
 - Minimum examples per class to be trainable (proposal: 20 for classes, 30 for descriptors)
-- Remaining unknown descriptors (e.g. `psh`, `arias`, `aliaga`) confirmed during review
+- Any rare descriptor not in the glossary is listed in the label report for confirmation
 
 ---
 
@@ -424,4 +424,4 @@ Cluster each stem and determine, **with evidence and per label field**, which st
 
 ## Open Questions for the DJ
 
-1. Remaining unknown descriptors (`psh`, `arias`, `aliaga`, …) — confirm during the label review (EPIC-2)
+None at the moment. Rare descriptors not yet in the glossary will be listed in the EPIC-2 label report.
